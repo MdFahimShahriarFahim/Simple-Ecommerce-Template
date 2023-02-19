@@ -1,0 +1,92 @@
+/* === Global CSS === */
+
+.bg-transparent-black{
+    background-color: #0e0e0e6e !important;
+}
+
+/* === Theme CSS === */
+body{
+	height: 100%;
+}
+
+#mainManu .active{
+    background-color: black;
+}
+
+/*--header part--*/
+header .navbar{
+    background-color: #000000b0;
+}
+header a{
+    color: white;
+}
+header img{
+    height: 60px;
+}
+
+header h1 {
+  text-shadow: 2px 2px 2px #ff0000;
+  -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 5s infinite;
+}
+
+/*-- header part mainManu --*/
+#mainManu .active{
+    background-color: black;
+}
+
+/*-- slider section --*/
+#slider img{
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*-- shop section --*/
+
+/*-- modal --*/
+.modal img{
+    width: 23rem; height: 20rem;
+}
+
+/*-- exclusive section --*/
+
+
+/*-- upcoming section --*/
+
+/*-- footer part --*/
+#social a{
+    width: 40px;
+    height: 40px;
+}
+#upper{
+    width: 40px;
+    height: 35px;
+    left: auto;
+    bottom: 3px;
+    right: 10px;
+}
+
+
+/*-- === Media part === --*/
+
+/*-- h3 for company name --*/
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  0%   {color: red;}
+  25%  {color: green;}
+  50%  {color: blue;}
+  100% {color: white;}
+
+
+/* Standard syntax */
+@keyframes mymove {
+  0%   {color: red;}
+  25%  {color: green;}
+  50%  {color: blue;}
+  100% {color: white;}
+
+
+
+
